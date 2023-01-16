@@ -34,8 +34,10 @@ ul :nth-child(n) {
 }
 
 /* Dropdown menu for mobile view */
-#bar {
+#bar,
+.shopping-card {
   display: none;
+  color: #e02c6d;
 }
 #bar:hover > i > .menu-itm-list {
   display: block;
@@ -267,7 +269,10 @@ ul :nth-child(n) {
   .nav-menu {
     display: none;
   }
-  #bar {
+  #bar,
+  .shopping-card,
+  .brand-name h1 {
+    font-size: 28px;
     display: block;
   }
 
@@ -295,6 +300,7 @@ ul :nth-child(n) {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    margin: 10px 0;
     border: none;
   }
   .ecommers-container img {
